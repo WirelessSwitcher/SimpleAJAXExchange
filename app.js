@@ -23,5 +23,11 @@ app.listen(port, () => {
 // Receives the message from the client
 app.post("/", function(req, res){
 	// Prints the content of the message from the client
-	console.log(req.body);
+	var message = req.body;
+	var content = message.message;
+	console.log(content);
+
+	if(content == "Clear"){
+		console.clear();
+	}
 });
