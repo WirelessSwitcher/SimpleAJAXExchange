@@ -16,5 +16,13 @@ send.onmouseup = function(){
 }
 
 clearbutton.onmouseup = function(){
+    let data = {
+        message:     "Clear",
+    };
+    let message = JSON.stringify(data);
+    console.log("Sending the message: " + message);
+    request.open("POST", "/");
+    request.setRequestHeader("Content-type", "application/json");
+    request.send(message);
     console.clear();
 }
