@@ -1,4 +1,6 @@
 # SimpleAJAXExchange
 This is the simplest AJAX data exchange I could make
 
-Do not forget it requires Node.js modules :).
+Do not forget it requires Node.js modules :
+1. express
+2. body-parser
