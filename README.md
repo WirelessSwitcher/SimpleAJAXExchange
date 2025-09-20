@@ -45,12 +45,3 @@ And here's the same for the Manjaro/Arch based ones:
 10. cd SimpleAJAXExchange
 11. sudo npm install express
 12. nodemon app.js
-
-
-
-
-
-
-
-
-7. sudo npm install
