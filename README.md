@@ -45,3 +45,7 @@ And here's the same for the Manjaro/Arch based ones:
 10. cd SimpleAJAXExchange
 11. sudo npm install express
 12. nodemon app.js
+
+Once the system is deployed, open Firefox and type in the address bar: http://ocalhost:3000
+
+Now you have the your very first AJAX exchange application. Congrats!
