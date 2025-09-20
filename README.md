@@ -6,6 +6,7 @@ Do not forget it requires Node.js modules.
 Here's a quick step-by-step tutorial for complete beginners depending on your distro base:
 
 1.Debian/Ubuntu
+
 1.1. Open terminal
 1.2. sudo apt update -y
 1.3. sudo apt upgrade -y
@@ -21,6 +22,7 @@ Here's a quick step-by-step tutorial for complete beginners depending on your di
 1.13. nodemon app.js
 
 2. Fedora/Redhat
+
 2.1. Open terminal
 2.2. sudo dnf update -y
 2.3. sudo dnf install -y git
@@ -34,7 +36,8 @@ Here's a quick step-by-step tutorial for complete beginners depending on your di
 2.11. sudo npm install express
 2.12. nodemon app.js
 
-3. Manjaro/Arch based ones:
+3. Manjaro/Arch based ones
+
 3.1. Open terminal
 3.2. sudo pacman -Syu
 3.3. sudo pacman -S git
